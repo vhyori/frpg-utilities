@@ -1,0 +1,69 @@
+
+.cropTable {
+/*  background-color: var(--color-grey);*/
+  padding-top: 5px;
+}
+.cropInfo {
+  display: grid;
+  grid-template-columns: 80px 4fr;
+  padding: 5px 0;
+  background-color: var(--color-card-bg);
+}
+
+.col {
+  width: 100%;
+  vertical-align: center;
+
+}
+
+.cropName {
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.infoLabel {
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+.cropImage {
+  width: 50px;
+  height: 50px;
+}
+.colImage {
+  text-align: center;
+  align-items: center;
+}
+
+.colInfo {
+  display: flex;
+  flex-direction: column;
+}
+.colTime,
+.colPerk {
+  min-width: 150px;
+}
+
+.cropDetails {
+  display: flex;
+  grid-template-columns: 2fr 2fr;
+  column-gap: 50px;
+  font-size: 11px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--color-off-white);
+}
+
+.perksControls {
+  padding: 15px;
+}
+
+.perksList {
+  display: flex;
+  flex-wrap: wrap;
+}
+.perkToggle {
+  padding: 5px 10px;
+  background-color: var(--color-grey);
+  border-radius: 30px;
+  margin: 3px;
+}

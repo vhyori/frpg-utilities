@@ -1,0 +1,14 @@
+:root {
+	--color-grey: rgba(0, 0, 0, 0.3);
+	--color-off-white: rgba(255, 255, 255, 0.8);
+
+	--color-font: rgb(221, 221, 221);
+	--color-active: rgb(144, 238, 144);
+
+	--color-navbar-bg: rgb(19, 19, 19);
+
+	--color-card-bg: rgba(28, 29, 31, 0.8);
+	--color-card-divider: rgb(57, 57, 57);
+
+	--color-site-bg: rgb(34, 34, 34);
+}
